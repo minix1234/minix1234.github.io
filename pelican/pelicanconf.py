@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'me'
-SITENAME = 'minix1234.github.io'
-SITEURL = ''
+SITENAME = 'Matts Blog'
+SITEURL = 'minix1234.github.io'
 
 THEME = 'themes/pelican-clean-blog-master'
 OUTPUT_PATH = 'output'
