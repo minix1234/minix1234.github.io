@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'me'
 SITENAME = 'minix1234.github.io'
-SITEURL = 'minix1234.github.io'
+SITEURL = ''
 
 THEME = 'themes/pelican-clean-blog-master'
 OUTPUT_PATH = 'output'
