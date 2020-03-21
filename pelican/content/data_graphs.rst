@@ -12,7 +12,18 @@ Covid-19 Interactive Graphs
 Below I have included an interactive graph that aligns the case data around the nearest "100th" cases as day 0 for that country.
 
 pointers
+
 - double click on a legend item to isolate the plot for that country.
 
+
+Y-axis [# number of active Cases]
+X-axis [Days since 100th active confirmed cases]
+.. raw:: html
+    :file: infections_aligned.html
+
+
+
+Y-axis Log-Scale [# number of active Cases]
+X-axis [Days since 100th active confirmed cases]
 .. raw:: html
     :file: infections_logscal.html
