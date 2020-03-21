@@ -30,3 +30,5 @@ X-axis [Days since 100th active confirmed cases]
 
 .. raw:: html
     :file: infections_logscal.html
+
+.
