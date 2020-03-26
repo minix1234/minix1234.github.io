@@ -21,7 +21,7 @@ Isolate out Japan and China. Japan has twice the relative population density as 
 
 Japan has maintained a slow and constant near linear increase in active cases.  
 
-China was running rampid and then misteriously wasn'tags
+China was running rampid and then misteriously wasn't
 
 Take a look below.
 
