@@ -2,7 +2,7 @@ Covid-19 Interactive Graphs
 ###########################
 
 :date: 2020-03-20 10:50
-:modified: 2020-03-24 20:40
+:modified: 2020-03-25 20:36
 :tags: Covid-19, Plotly
 :category: Data
 :slug: Covid-19 Graphs
@@ -10,6 +10,13 @@ Covid-19 Interactive Graphs
 :summary: Interactive Plotly graphs that align covid-19 case data.
 
 Below I have included an interactive graph that aligns the case data around the nearest "100th" cases as day 0 for that country.
+
+Interestingly our household is predicting that around day 14-16 we will see the curve flatten out.  
+Our hypothesis is that the number of cases will continue to increase after the emergency orders and 
+business shutdowns due to the internal monentum of viral contractions and the required time to show symptoms.
+
+You can see the rate of change for Canada starts to dampen out around day 14. All similar tragecories to South, Korea 
+which also when on nation wide business shutdowns and lockdowns.
 
 pointers
 
