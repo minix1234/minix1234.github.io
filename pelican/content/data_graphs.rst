@@ -24,17 +24,13 @@ pointers
 
 
 
-Y-axis [# number of active Cases]
-X-axis [Days since 100th active confirmed cases]
-
 .. raw:: html
     :file: infections_aligned.html
 
 
 Below is the Semi-Log Scale version were:
 
-Y-axis Log-Scale [# number of active Cases]
-X-axis [Days since 100th active confirmed cases]
+
 
 .. raw:: html
     :file: infections_logscal.html
