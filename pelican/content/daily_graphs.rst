@@ -2,7 +2,7 @@ New Daily Cases
 ###########################
 
 :date: 2020-03-28 10:50
-:modified: 2020-03-29 06:36
+:modified: 2020-03-30 06:36
 :tags: Covid-19, Plotly
 :category: Data
 :slug: Daily Cases
