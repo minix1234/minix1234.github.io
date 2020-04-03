@@ -2,7 +2,7 @@ Covid-19 Interactive Graphs
 ###########################
 
 :date: 2020-03-20 10:50
-:modified: 2020-04-01 06:36
+:modified: 2020-04-02 06:36
 :tags: Covid-19, Plotly
 :category: Data
 :slug: Covid-19 Graphs
