@@ -13,3 +13,8 @@ Ontario Interactive Graphs
 
 .. raw:: html
     :file: Ontario.html
+
+Below is a breakdown of the current fatal covid-19 cases in Ontario to-date
+
+.. raw:: html
+    :file: Ontariopie.html
