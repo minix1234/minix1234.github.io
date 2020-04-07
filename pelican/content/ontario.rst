@@ -2,7 +2,7 @@ Ontario Interactive Graphs
 ##########################
 
 :date: 2020-04-06 22:13
-:modified: 2020-04-06 22:13
+:modified: 2020-04-07 9:15
 :tags: Covid-19, Plotly
 :category: Data
 :slug: Ontario Graphs
@@ -17,6 +17,8 @@ and
 
 https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario
 
+
+Below is a graph plotting all the raw data from the second data-set. I plan on cleaning it up later.
 
 .. raw:: html
     :file: Ontario.html
@@ -36,3 +38,9 @@ Below is a breakdown of the current fatal covid-19 cases in Ontario to-date
 
 .. raw:: html
     :file: Ontariopie.html
+
+
+Below is a breakdown of the current covid-19 cases in Ontario plotted by reporting Public Health Unit (PHU)
+
+.. raw:: html
+    :file: OntarioPHU.html
