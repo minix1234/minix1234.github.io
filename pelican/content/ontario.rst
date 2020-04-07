@@ -19,6 +19,12 @@ Below is a bar graph showing the active, resolved and fatal cases in Ontario bas
 .. raw:: html
     :file: Ontariobar.html
 
+Below is a bar graph showing the active, resolved and fatal cases in Ontario based on age grouping.
+
+.. raw:: html
+    :file: Ontariobarage.html
+
+
 Below is a breakdown of the current fatal covid-19 cases in Ontario to-date
 
 .. raw:: html
