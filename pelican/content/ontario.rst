@@ -9,6 +9,13 @@ Ontario Interactive Graphs
 :authors: Matt Hazaras
 :summary: Data fom Health Ontario.
 
+Data is collected daily from:
+
+https://data.ontario.ca/en/dataset/confirmed-positive-cases-of-covid-19-in-ontario
+
+and
+
+https://data.ontario.ca/dataset/status-of-covid-19-cases-in-ontario
 
 
 .. raw:: html
