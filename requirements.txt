@@ -1,0 +1,4 @@
+pelican
+pandas
+numpy
+plotly.express
