@@ -6,7 +6,7 @@ name: Nightly publish
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '2,10 10,20 * * *'
+    - cron:  '40 12,13,23 * * *'
 
 #  push:
 #    branches: [ master ]
@@ -46,6 +46,8 @@ jobs:
         python test.py
         cd ..
         cd ..
+        git config --global user.email "minix1234@outlook.com"
+        git config --global user.name "Min Ix"
         git add -A -- .
         git commit -a -m "cron job build and deploy"
         git push origin master:master
