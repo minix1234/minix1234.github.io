@@ -37,5 +37,8 @@ jobs:
     - name: Test with pytest
       run: |
         ls -l
+        cd pelican/scripts
+        ls -l
+        python test.py
         #pip install pytest
         #pytest
