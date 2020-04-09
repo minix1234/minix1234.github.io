@@ -46,5 +46,6 @@ jobs:
         python test.py
         ls
         git add -A -- .
-        git commit --quiet --allow-empty-message --file -
+        git commit -a -m "cron job build and deploy"
+        git push origin master:master
 #
