@@ -56,4 +56,4 @@ fig.update_layout(
 )
 #fig.show()
 print("Writing figure file")
-fig.write_html("Province.html")
+fig.write_html("province.html")
