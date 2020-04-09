@@ -45,4 +45,6 @@ jobs:
         ls
         python test.py
         ls
+        git add -A -- .
+        git commit --quiet --allow-empty-message --file -
 #
