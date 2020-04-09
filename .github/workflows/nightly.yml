@@ -6,7 +6,7 @@ name: Nightly publish
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '20 1,15,23 * * *'
+    - cron:  '30 1,14,23 * * *'
 
 #  push:
 #    branches: [ master ]
