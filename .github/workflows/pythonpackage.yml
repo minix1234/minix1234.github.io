@@ -47,6 +47,8 @@ jobs:
         ls
         git remote -v
         #:modified: 2020-04-06 06:36
-        date "+%Y-%m-%d %H:%M"
+        now =$(date "+%Y-%m-%d %H:%M")
+        echo ":modified: ${now}" > modified.txt
+        cat modified.txt
 
 ##
