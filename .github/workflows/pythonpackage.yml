@@ -40,11 +40,11 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        ls
-        cd pelican/scripts
-        ls
-        python test.py
-        ls
+        #ls
+        cd pelican/content
+        #ls
+        #python test.py
+        #ls
         #git remote -v
         #:modified: 2020-04-06 06:36
         now =$(date "+%Y-%m-%d %H:%M")
