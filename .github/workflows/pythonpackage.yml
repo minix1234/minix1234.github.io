@@ -41,14 +41,21 @@ jobs:
     - name: Test with pytest
       run: |
         #ls
+        echo "moving to content directory"
+        echo "---------------------------"
         cd pelican/content
         #ls
         #python test.py
         #ls
         #git remote -v
         #:modified: 2020-04-06 06:36
-        now =$(date "+%Y-%m-%d %H:%M")
-        echo ":modified: ${now}" > modified.txt
+        #now =$(date "+%Y-%m-%d %H:%M")
+        #echo ":modified: ${now}" > modified.txt
+        echo "Making file for modified date time"
+        echo "-----------------------------------"
+        echo ":modified: $(date "+%Y-%m-%d %H:%m")" > modified.txt
+        echo "reading backfile"
+        echo "----------------"
         cat modified.txt
 
 ##
