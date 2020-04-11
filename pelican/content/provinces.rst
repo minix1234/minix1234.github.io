@@ -2,7 +2,10 @@ Provincial Interactive Graphs
 #############################
 
 :date: 2020-03-29 10:50
-:modified: 2020-04-06 21:36
+
+.. raw:: txt
+    :file: modified.txt
+
 :tags: Covid-19, Plotly
 :category: Data
 :slug: Provincial Graphs
