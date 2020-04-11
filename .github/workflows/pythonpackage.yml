@@ -45,7 +45,7 @@ jobs:
         ls
         python test.py
         ls
-        git remote -v
+        #git remote -v
         #:modified: 2020-04-06 06:36
         now =$(date "+%Y-%m-%d %H:%M")
         echo ":modified: ${now}" > modified.txt
