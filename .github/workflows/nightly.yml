@@ -44,6 +44,12 @@ jobs:
         python ontario.py
         python interactive.py
         python province.py
+        echo "Making file for modified date time"
+        echo "-----------------------------------"
+        echo ":modified: $(date "+%Y-%m-%d %H:%m")" > modified.txt
+        echo "reading backfile"
+        echo "----------------"
+        cat modified.txt
         cd ..
         pelican content -o .. -s pelicanconf.py
         cd ..
