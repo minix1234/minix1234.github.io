@@ -33,7 +33,7 @@ dfmax = dfmax.rename(columns={'date': 'country'})
 
 dfmax = dfmax[dfmax['max'] > threshold]
 llist = dfmax['country'].values.tolist()
-llist = llist + ['Japan']
+#llist = llist + ['Japan']
 df1 = df[llist]
 
 dfgt = pd.DataFrame()
