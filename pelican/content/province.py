@@ -26,6 +26,7 @@ df = df.set_index('dates')
 df = df.apply(pd.to_numeric) # convert all columns of DataFrame
 df = df[df.index >= '2020-02-23']
 df.at['2020-04-04','Quebec'] = 6997
+df = df[['Alberta','British Columbia','Manitoba','New Brunswick','Newfoundland and Labrador','Northwest Territories','Nova Scotia','Ontario','Prince Edward Island','Quebec','Saskatchewan','Yukon']]
 
 dfmelt = df.reset_index()
 dfmelt = dfmelt.melt(id_vars=['dates'])
