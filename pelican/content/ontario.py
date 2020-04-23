@@ -8,11 +8,11 @@ import plotly.express as px
 dfcases = pd.read_csv(url,index_col=1,parse_dates=[1])
 dfcases = dfcases.drop(columns=['Reporting_PHU_Website','Reporting_PHU_Latitude','Reporting_PHU_Longitude','Reporting_PHU_City','Reporting_PHU_Address','Reporting_PHU_Postal_Code'])
 
-df2 = dfcases.groupby(['Age_Group','OUTCOME1']).count()
-df2 = df2.drop(columns=['CLIENT_GENDER','CASE_ACQUISITIONINFO','Reporting_PHU'])
+df2 = dfcases.groupby(['Age_Group','Outcome1']).count()
+df2 = df2.drop(columns=['Client_Gender','Case_AcquisitionInfo','Reporting_PHU'])
 df2 = df2.reset_index()#.to_csv('ontario.csv')
-df2 = df2.rename(columns={'OUTCOME1': 'Outcome'})
-df2 = df2.rename(columns={'ROW_ID': 'Cases'})
+df2 = df2.rename(columns={'Outcome1': 'Outcome'})
+df2 = df2.rename(columns={'Row_ID': 'Cases'})
 
 figage = px.bar(df2, x="Age_Group", y="Cases", color='Outcome')
 figage.update_layout(
@@ -35,11 +35,11 @@ figage.update_layout(
 #figage.show()
 figage.write_html("Ontariobarage.html")
 
-df3 = dfcases.groupby(['Reporting_PHU','OUTCOME1']).count()
-df3 = df3.drop(columns=['CLIENT_GENDER','CASE_ACQUISITIONINFO','Age_Group'])
+df3 = dfcases.groupby(['Reporting_PHU','Outcome1']).count()
+df3 = df3.drop(columns=['Client_Gender','Case_AcquisitionInfo','Age_Group'])
 df3 = df3.reset_index()#.to_csv('ontario.csv')
-df3 = df3.rename(columns={'OUTCOME1': 'Outcome'})
-df3 = df3.rename(columns={'ROW_ID': 'Cases'})
+df3 = df3.rename(columns={'Outcome1': 'Outcome'})
+df3 = df3.rename(columns={'Row_ID': 'Cases'})
 
 figPHU = px.bar(df3, x="Reporting_PHU", y="Cases", color='Outcome')
 figPHU.update_layout(
@@ -98,13 +98,13 @@ fig.write_html("Ontario.html")
 
 df3 = dfcases.reset_index()
 df4 = pd.DataFrame()
-df4['CASES'] = df3.groupby(['ACCURATE_EPISODE_DATE','OUTCOME1'])['ROW_ID'].count()
+df4['CASES'] = df3.groupby(['Accurate_Episode_Date','Outcome1'])['Row_ID'].count()
 df4 = df4.reset_index()
-df4['OUTCOME1'] = df4['OUTCOME1'].astype('category')
+df4['Outcome1'] = df4['Outcome1'].astype('category')
 
 
 
-fig = px.bar(df4, x="ACCURATE_EPISODE_DATE", y="CASES", color='OUTCOME1')
+fig = px.bar(df4, x="Accurate_Episode_Date", y="CASES", color='Outcome1')
 fig.update_layout(
     title="Ontario Covid-19 Data by Presentation Date",
     xaxis_title="Dates",
@@ -126,8 +126,8 @@ fig.update_layout(
 fig.write_html("Ontariobar.html")
 
 
-dffatal = dfcases[dfcases['OUTCOME1'] == 'Fatal'].groupby(['Age_Group']).count()
-dffatal = dffatal.rename(columns={'ROW_ID': 'Number of Dead'})
+dffatal = dfcases[dfcases['Outcome1'] == 'Fatal'].groupby(['Age_Group']).count()
+dffatal = dffatal.rename(columns={'Row_ID': 'Number of Dead'})
 dffatal = dffatal.reset_index()
 
 
