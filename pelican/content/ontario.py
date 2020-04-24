@@ -149,3 +149,36 @@ figpie.update_layout(
 )
 #figpie.show()
 figpie.write_html("Ontariopie.html")
+
+df5 = df4
+df5['Outcome1'] = df5['Outcome1'].astype('object')
+df5 = df5.pivot(values='CASES', index='Accurate_Episode_Date', columns='Outcome1')
+df5 = df5.fillna(0)
+df5 = df5.cumsum(skipna=True)
+df5 = df5.reset_index()
+df5['Total_Cases'] = df5['Fatal']+df5['Not Resolved']+df5['Resolved']
+#df5 = df5[df5['Accurate_Episode_Date'] > '2020-01-27']
+df5 = pd.melt(df5,id_vars=['Accurate_Episode_Date'],value_vars=['Fatal','Not Resolved','Resolved','Total_Cases'])
+#df5 = pd.melt(df5,id_vars=['Accurate_Episode_Date'],value_vars=['Total_Cases'])
+df5 = df5.set_index('Accurate_Episode_Date')
+
+figpres = px.line(df5, x=df5.index, y="value",color='Outcome1')#,log_y=True)
+figpres.update_layout(
+    title="Ontario Covid-19 Data by Presentation Date",
+    xaxis_title="Date",
+    yaxis_title="Cases",
+    font=dict(
+        family="Courier New, monospace",
+        size=16,
+        color="#7f7f7f"
+    ),
+    legend=dict(
+        font=dict(
+            family="sans-serif",
+            size=12,
+            color="black"
+        )
+    )
+)
+figpres.show()
+figpres.write_html("Ontariopresdate.html")
