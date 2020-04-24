@@ -180,5 +180,5 @@ figpres.update_layout(
         )
     )
 )
-figpres.show()
+#figpres.show()
 figpres.write_html("Ontariopresdate.html")
