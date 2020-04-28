@@ -6,7 +6,7 @@ name: Nightly publish
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '0 1,13,14 * * *'
+    - cron:  '0 1,14 * * *'
 
 #  push:
 #    branches: [ master ]
@@ -42,7 +42,7 @@ jobs:
       run: |
         cd pelican/content
         python ontario.py
-        
+
     - name: Update Interactive Charts
       run: |
         python interactive.py
