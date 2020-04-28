@@ -38,24 +38,33 @@ jobs:
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-    - name: Test with pytest
+    - name: Update Ontario Numbers
       run: |
-        #ls
-        echo "moving to content directory"
-        echo "---------------------------"
         cd pelican/content
-        #ls
-        #python test.py
-        #ls
-        #git remote -v
-        #:modified: 2020-04-06 06:36
-        #now =$(date "+%Y-%m-%d %H:%M")
-        #echo ":modified: ${now}" > modified.txt
+        python ontario.py
+
+    - name: Update Interactive Charts
+      run: |
+        python interactive.py
+
+    - name: Update Provincal Charts
+      run: |
+        python province.py
+
+    - name: Update Pelican
+      run: |
         echo "Making file for modified date time"
         echo "-----------------------------------"
         echo ":modified: $(date "+%Y-%m-%d %H:%m")" > modified.txt
         echo "reading backfile"
         echo "----------------"
         cat modified.txt
-
-##
+        cd ..
+        pelican content -o .. -s pelicanconf.py
+        cd ..
+        git config --global user.email "minix1234@outlook.com"
+        git config --global user.name "Min Ix"
+        git add -A -- .
+        git commit -a -m "cron job build and deploy"
+        git push origin master:master
+##?#
