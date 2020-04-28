@@ -45,14 +45,17 @@ jobs:
 
     - name: Update Interactive Charts
       run: |
+        cd pelican/content
         python interactive.py
 
     - name: Update Provincal Charts
       run: |
+        cd pelican/content
         python province.py
 
     - name: Update Pelican
       run: |
+        cd pelican/content
         echo "Making file for modified date time"
         echo "-----------------------------------"
         echo ":modified: $(date "+%Y-%m-%d %H:%m")" > modified.txt
