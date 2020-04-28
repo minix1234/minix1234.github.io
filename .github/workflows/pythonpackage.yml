@@ -45,10 +45,12 @@ jobs:
 
     - name: Update Interactive Charts
       run: |
+        cd pelican/content
         python interactive.py
 
     - name: Update Provincal Charts
       run: |
+        cd pelican/content
         python province.py
 
     - name: Update Pelican
@@ -58,6 +60,7 @@ jobs:
         echo ":modified: $(date "+%Y-%m-%d %H:%m")" > modified.txt
         echo "reading backfile"
         echo "----------------"
+        cd pelican/content
         cat modified.txt
         cd ..
         pelican content -o .. -s pelicanconf.py
