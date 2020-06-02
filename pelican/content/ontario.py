@@ -9,6 +9,7 @@ dfcases = pd.read_csv(url,index_col=1,parse_dates=[1])
 dfcases = dfcases.drop(columns=['Reporting_PHU_Website','Reporting_PHU_Latitude','Reporting_PHU_Longitude','Reporting_PHU_City','Reporting_PHU_Address','Reporting_PHU_Postal_Code'])
 dfcases = dfcases[dfcases.index <= '2021-06-01']
 
+
 df2 = dfcases.groupby(['Age_Group','Outcome1']).count()
 df2 = df2.drop(columns=['Client_Gender','Case_AcquisitionInfo','Reporting_PHU'])
 df2 = df2.reset_index()#.to_csv('ontario.csv')
