@@ -64,6 +64,7 @@ figPHU.write_html("OntarioPHU.html")
 
 dfstatus = pd.read_csv(urlstatus,index_col=0,parse_dates=[0])
 dfstatus = dfstatus.astype(float)
+dfstatus = dfstatus[dfstatus.columns[0:13]]
 dfstatus.columns = ['Confirmed Negative','Presumptive Negative','Presumtive Positive','Confirmed Positive','Resolved','Deaths','Total Cases','Approved for Testing','Tests Completed','Under Investigation','Hospitalized','In ICU','On Venilator']
 
 df1 = dfstatus
