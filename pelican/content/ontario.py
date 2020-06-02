@@ -7,6 +7,7 @@ import plotly.express as px
 
 dfcases = pd.read_csv(url,index_col=1,parse_dates=[1])
 dfcases = dfcases.drop(columns=['Reporting_PHU_Website','Reporting_PHU_Latitude','Reporting_PHU_Longitude','Reporting_PHU_City','Reporting_PHU_Address','Reporting_PHU_Postal_Code'])
+dfcases = dfcases[dfcases.index <= '2021-06-01']
 
 df2 = dfcases.groupby(['Age_Group','Outcome1']).count()
 df2 = df2.drop(columns=['Client_Gender','Case_AcquisitionInfo','Reporting_PHU'])
@@ -162,6 +163,7 @@ df5['Total_Cases'] = df5['Fatal']+df5['Not Resolved']+df5['Resolved']
 df5 = pd.melt(df5,id_vars=['Accurate_Episode_Date'],value_vars=['Fatal','Not Resolved','Resolved','Total_Cases'])
 #df5 = pd.melt(df5,id_vars=['Accurate_Episode_Date'],value_vars=['Total_Cases'])
 df5 = df5.set_index('Accurate_Episode_Date')
+#df5 = df5[df5.index <= '2021-06-01']
 
 figpres = px.line(df5, x=df5.index, y="value",color='Outcome1')#,log_y=True)
 figpres.update_layout(
