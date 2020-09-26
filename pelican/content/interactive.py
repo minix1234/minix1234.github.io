@@ -144,7 +144,7 @@ figdif.update_layout(
 #figdif.show()
 figdif.write_html("differences.html")
 
-pop = pd.read_csv('population.csv')
+""" pop = pd.read_csv('population.csv')
 poplist = pop['Country'].to_list()
 
 dfpop = pd.DataFrame()
@@ -156,9 +156,9 @@ for country in llist:
             num = pop['Population'].loc[pop['Country'] == country].values #find the population data, comes out as array
             dfpop[country] = df1[country]/num[0]*100 #convert the df cases values from absolute to percetnage of country population
         except:
-            pass
+            pass """
 
-dfpctmelt = dfpop.reset_index()
+""" dfpctmelt = dfpop.reset_index()
 dfpctmelt = dfpctmelt.melt(id_vars=['dates'])
 
 dfpctmelt = dfpctmelt.rename(columns={'variable': 'country'})
@@ -185,4 +185,4 @@ popfig.update_layout(
     )
 )
 #popfig.show()
-popfig.write_html("percentage_aligned.html")
+popfig.write_html("percentage_aligned.html") """
