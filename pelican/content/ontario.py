@@ -196,6 +196,9 @@ figpres.write_html("Ontariopresdate.html")
 # Graph to plot the various vacination 
 # data
 # --------------------------------------
+
+vaccinestatus = "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv"
+
 dfVC = pd.read_csv(vaccinestatus,parse_dates=[1])
 dfVC = dfVC.set_index('report_date')
 dfVC.columns=["Daily Doses","Total Doses","Doses for Fully Vaccinated","Fully Vaccinated"]
@@ -209,12 +212,11 @@ dfmelt = dfmelt.set_index('report_date')
 dfmelt['variable'] = dfmelt['variable'].astype('category')
 
 
-
 fig = px.line(dfmelt, x=dfmelt.index, y="value",color='variable')#,log_y=True)
 fig.update_layout(
     title="Ontario Covid-19 Vaccination Data",
     xaxis_title="Date",
-    yaxis_title="Cases",
+    yaxis_title="Number",
     font=dict(
         family="Courier New, monospace",
         size=16,
