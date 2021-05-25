@@ -189,3 +189,44 @@ figpres.update_layout(
 )
 #figpres.show()
 figpres.write_html("Ontariopresdate.html")
+
+
+# Vaccination Data
+# -------------------------------------
+# Graph to plot the various vacination 
+# data
+# --------------------------------------
+dfVC = pd.read_csv(vaccinestatus,parse_dates=[1])
+dfVC = dfVC.set_index('report_date')
+dfVC.columns=["Daily Doses","Total Doses","Doses for Fully Vaccinated","Fully Vaccinated"]
+dfVC["Partially Vaccinated"] = dfVC['Total Doses']-dfVC["Doses for Fully Vaccinated"]
+dfVC["Population Vaccinated"] = dfVC["Partially Vaccinated"]+dfVC["Fully Vaccinated"]
+dfVC["Vaccinated Percentage"] = dfVC["Population Vaccinated"]/14750000*100
+
+dfmelt = dfVC.reset_index()
+dfmelt = dfmelt.melt(id_vars=['report_date'])
+dfmelt = dfmelt.set_index('report_date')
+dfmelt['variable'] = dfmelt['variable'].astype('category')
+
+
+
+fig = px.line(dfmelt, x=dfmelt.index, y="value",color='variable')#,log_y=True)
+fig.update_layout(
+    title="Ontario Covid-19 Vaccination Data",
+    xaxis_title="Date",
+    yaxis_title="Cases",
+    font=dict(
+        family="Courier New, monospace",
+        size=16,
+        color="#7f7f7f"
+    ),
+    legend=dict(
+        font=dict(
+            family="sans-serif",
+            size=12,
+            color="black"
+        )
+    )
+)
+
+fig.write_html("OntarioPPLVac.html")
