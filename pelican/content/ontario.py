@@ -1,17 +1,18 @@
 url = 'https://data.ontario.ca/dataset/f4112442-bdc8-45d2-be3c-12efae72fb27/resource/455fd63b-603d-4608-8216-7d8647f43350/download/conposcovidloc.csv'
 urlstatus = 'https://data.ontario.ca/dataset/f4f86e54-872d-43f8-8a86-3892fd3cb5e6/resource/ed270bb8-340b-41f9-a7c6-e8ef587e6d11/download/covidtesting.csv'
+vaccinestatus = "https://data.ontario.ca/dataset/752ce2b7-c15a-4965-a3dc-397bf405e7cc/resource/8a89caa9-511c-4568-af89-7f2174b4378c/download/vaccine_doses.csv"
 
 import pandas as pd
 import numpy as np
 import plotly.express as px
 
 dfcases = pd.read_csv(url,index_col=1,parse_dates=[1])
-dfcases = dfcases.drop(columns=['Reporting_PHU_Website','Reporting_PHU_Latitude','Reporting_PHU_Longitude','Reporting_PHU_City','Reporting_PHU_Address','Reporting_PHU_Postal_Code'])
+dfcases = dfcases.drop(columns=['Reporting_PHU_Website','Reporting_PHU_Latitude','Reporting_PHU_Longitude','Reporting_PHU_Address','Reporting_PHU_Postal_Code'])
 dfcases = dfcases[dfcases.index <= '2021-06-01']
 
 
 df2 = dfcases.groupby(['Age_Group','Outcome1']).count()
-df2 = df2.drop(columns=['Client_Gender','Case_AcquisitionInfo','Reporting_PHU'])
+df2 = df2.drop(columns=['Client_Gender','Case_AcquisitionInfo','Reporting_PHU','Reporting_PHU_City'])
 df2 = df2.reset_index()#.to_csv('ontario.csv')
 df2 = df2.rename(columns={'Outcome1': 'Outcome'})
 df2 = df2.rename(columns={'Row_ID': 'Cases'})
@@ -37,15 +38,16 @@ figage.update_layout(
 #figage.show()
 figage.write_html("Ontariobarage.html")
 
-df3 = dfcases.groupby(['Reporting_PHU','Outcome1']).count()
-df3 = df3.drop(columns=['Client_Gender','Case_AcquisitionInfo','Age_Group'])
+df3 = dfcases.groupby(['Reporting_PHU_City','Outcome1','Age_Group']).count()
+df3 = df3.drop(columns=['Client_Gender','Case_AcquisitionInfo','Reporting_PHU'])
 df3 = df3.reset_index()#.to_csv('ontario.csv')
+df3 = df3[df3['Outcome1'] == 'Not Resolved']
 df3 = df3.rename(columns={'Outcome1': 'Outcome'})
 df3 = df3.rename(columns={'Row_ID': 'Cases'})
 
-figPHU = px.bar(df3, x="Reporting_PHU", y="Cases", color='Outcome')
+figPHU = px.bar(df3, x="Reporting_PHU_City", y="Cases", color='Age_Group')
 figPHU.update_layout(
-    title="Ontario Covid-19 Cases by Reportin Public Health Unit and Case Outcome",
+    title="Ontario Covid-19 Active Cases by Reportin Public Health Unit and Age Group",
     xaxis_title="",
     yaxis_title="Number of Cases",
     font=dict(
@@ -72,6 +74,7 @@ dfstatus.columns = ['Confirmed Negative','Presumptive Negative','Presumtive Posi
 df1 = dfstatus
 df1 = df1.apply(pd.to_numeric)
 dfmelt = df1.reset_index()
+dfmelt = dfmelt.drop(columns=["Approved for Testing"])
 dfmelt = dfmelt.melt(id_vars=['Reported Date'])
 dfmelt = dfmelt.set_index('Reported Date')
 dfmelt['variable'] = dfmelt['variable'].astype('category')
