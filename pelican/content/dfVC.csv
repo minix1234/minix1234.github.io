@@ -1,4 +1,4 @@
-report_date,Daily Daily,Daily First Dose,Daily Second Dose,Total Doses,Population Vaccinated,Doses for Fully Vaccinated,Fully Vaccinated,Partially Vaccinated,Vaccinated Percentage
+report_date,Daily - Doses Administered,Daily - First Dose,Daily - Second Dose,Total Doses,Population Vaccinated,Doses for Fully Vaccinated,Fully Vaccinated,Partially Vaccinated,Vaccinated Percentage
 2020-12-24,,,,10756,,,,,
 2020-12-30,7847,,,18603,,,,,
 2020-12-31,4899,,,23502,,,,,
