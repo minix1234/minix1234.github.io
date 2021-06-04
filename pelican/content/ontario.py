@@ -70,6 +70,7 @@ dfstatus = pd.read_csv(urlstatus,index_col=0,parse_dates=[0])
 dfstatus = dfstatus.astype(float)
 dfstatus = dfstatus[dfstatus.columns[0:13]]
 dfstatus.columns = ['Confirmed Negative','Presumptive Negative','Presumtive Positive','Confirmed Positive','Resolved','Deaths','Total Cases','Approved for Testing','Tests Completed','Under Investigation','Hospitalized','In ICU','On Venilator']
+dfstatus['New Deaths'] = dfstatus['Deaths'].diff()
 
 df1 = dfstatus
 df1 = df1.apply(pd.to_numeric)
