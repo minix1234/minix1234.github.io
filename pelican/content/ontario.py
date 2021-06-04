@@ -211,12 +211,13 @@ dfVC = dfVC.set_index('report_date')
 dfVC.columns=["Daily Daily","Daily First Dose","Daily Second Dose","Total Doses","Population Vaccinated","Doses for Fully Vaccinated","Fully Vaccinated"]
 dfVC["Partially Vaccinated"] = dfVC['Total Doses']-dfVC["Doses for Fully Vaccinated"]
 dfVC["Vaccinated Percentage"] = dfVC["Population Vaccinated"]/14750000*100
+dfVC.to_csv('dfVC.csv')
 
 dfmelt = dfVC.reset_index()
 dfmelt = dfmelt.melt(id_vars=['report_date'])
 dfmelt = dfmelt.set_index('report_date')
 dfmelt['variable'] = dfmelt['variable'].astype('category')
-
+dfmelt.to_csv('dfmelt.csv')
 
 fig = px.line(dfmelt, x=dfmelt.index, y="value",color='variable')#,log_y=True)
 fig.update_layout(
