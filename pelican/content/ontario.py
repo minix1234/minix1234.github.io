@@ -223,7 +223,7 @@ fig = px.line(dfmelt, x=dfmelt.index, y="value",color='variable')#,log_y=True)
 fig.update_layout(
     title="Ontario Covid-19 Vaccination Data",
     xaxis_title="Date",
-    yaxis_title="Number",
+    yaxis_title="Cases",
     font=dict(
         family="Courier New, monospace",
         size=16,
@@ -237,5 +237,5 @@ fig.update_layout(
         )
     )
 )
-
+#fig.show()
 fig.write_html("OntarioPPLVac.html")
