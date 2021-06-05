@@ -212,7 +212,7 @@ dfVC = dfVC.set_index('report_date')
 dfVC.columns=["Daily - Doses Administered","Daily - First Dose","Daily - Second Dose","Total Doses","Population Vaccinated","Doses for Fully Vaccinated","Fully Vaccinated"]
 dfVC["Partially Vaccinated"] = dfVC['Total Doses']-dfVC["Doses for Fully Vaccinated"]
 dfVC["All Vaccinated Percentage"] = dfVC["Population Vaccinated"]/14733018*100
-dfVC["Over 12 Vaccinated Percentage"] = dfVC["Population Vaccinated"]/ 125932502*100
+dfVC["Over 12 Vaccinated Percentage"] = dfVC["Population Vaccinated"]/12932502*100
 dfVC.to_csv('dfVC.csv')
 
 dfmelt = dfVC.reset_index()
