@@ -41,10 +41,6 @@ Below is a bar graph showing the active, resolved and fatal cases in Ontario bas
 .. raw:: html
     :file: Ontariobar.html
 
-Below is the above data cumulatively summed over the time frame and plots as a line graph.  Notice the difference when compares to the first chart, which is looking at 'confirmed' testing date.
-
-.. raw:: html
-    :file: Ontariopresdate.html
 
 Below is a bar graph showing the active, resolved and fatal cases in Ontario based on age grouping.
 
