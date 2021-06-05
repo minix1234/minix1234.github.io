@@ -14,14 +14,7 @@ Covid-19 Interactive Graphs
 
 Below I have included an interactive graph that aligns the case data around the nearest "100th" cases as day 0 for that country.
 
-Interestingly our household is predicting that around day 14-16 we will see the curve flatten out.  
-Our hypothesis is that the number of cases will continue to increase after the emergency orders and 
-business shutdowns due to the internal momentum of viral contractions and the required time to show symptoms.
-
-You can see the rate of change for Canada starts to dampen out around day 14. All similar trajectories to South, Korea 
-which also when on nation wide business shutdowns and lockdowns.
-
-pointers
+Pointers
 
 - double click on a legend item to isolate the plot for that country.
 
