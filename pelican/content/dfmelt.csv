@@ -1263,161 +1263,319 @@ report_date,variable,value
 2021-06-02,Partially Vaccinated,7779795.0
 2021-06-03,Partially Vaccinated,7823043.0
 2021-06-04,Partially Vaccinated,7869197.0
-2020-12-24,Vaccinated Percentage,
-2020-12-30,Vaccinated Percentage,
-2020-12-31,Vaccinated Percentage,
-2021-01-01,Vaccinated Percentage,
-2021-01-02,Vaccinated Percentage,
-2021-01-03,Vaccinated Percentage,
-2021-01-04,Vaccinated Percentage,
-2021-01-05,Vaccinated Percentage,
-2021-01-06,Vaccinated Percentage,0.40644067796610167
-2021-01-07,Vaccinated Percentage,0.4850440677966102
-2021-01-08,Vaccinated Percentage,0.5799050847457627
-2021-01-09,Vaccinated Percentage,0.6801559322033899
-2021-01-10,Vaccinated Percentage,0.7478237288135593
-2021-01-11,Vaccinated Percentage,0.8078847457627119
-2021-01-12,Vaccinated Percentage,0.8849491525423728
-2021-01-13,Vaccinated Percentage,0.9518305084745762
-2021-01-14,Vaccinated Percentage,1.0330440677966102
-2021-01-15,Vaccinated Percentage,1.1259864406779663
-2021-01-16,Vaccinated Percentage,1.2164271186440678
-2021-01-17,Vaccinated Percentage,1.2829830508474578
-2021-01-18,Vaccinated Percentage,1.34855593220339
-2021-01-19,Vaccinated Percentage,1.4327389830508475
-2021-01-20,Vaccinated Percentage,1.5033016949152542
-2021-01-21,Vaccinated Percentage,1.5844338983050847
-2021-01-22,Vaccinated Percentage,1.6294169491525425
-2021-01-23,Vaccinated Percentage,1.6758779661016947
-2021-01-24,Vaccinated Percentage,1.6890305084745765
-2021-01-25,Vaccinated Percentage,1.6981830508474576
-2021-01-26,Vaccinated Percentage,1.723213559322034
-2021-01-27,Vaccinated Percentage,1.7430508474576272
-2021-01-28,Vaccinated Percentage,1.7759593220338983
-2021-01-29,Vaccinated Percentage,1.8018711864406778
-2021-01-30,Vaccinated Percentage,1.8240067796610169
-2021-01-31,Vaccinated Percentage,1.8358983050847457
-2021-02-01,Vaccinated Percentage,1.8414033898305087
-2021-02-02,Vaccinated Percentage,1.8478508474576272
-2021-02-03,Vaccinated Percentage,1.8531322033898303
-2021-02-04,Vaccinated Percentage,1.8581559322033896
-2021-02-05,Vaccinated Percentage,1.8638508474576272
-2021-02-06,Vaccinated Percentage,1.8718169491525425
-2021-02-07,Vaccinated Percentage,1.880949152542373
-2021-02-08,Vaccinated Percentage,1.8983593220338983
-2021-02-09,Vaccinated Percentage,1.919349152542373
-2021-02-10,Vaccinated Percentage,1.9416542372881356
-2021-02-11,Vaccinated Percentage,1.965071186440678
-2021-02-12,Vaccinated Percentage,1.9739593220338982
-2021-02-13,Vaccinated Percentage,1.984
-2021-02-14,Vaccinated Percentage,1.9863254237288135
-2021-02-15,Vaccinated Percentage,1.9877084745762712
-2021-02-16,Vaccinated Percentage,1.9894440677966103
-2021-02-17,Vaccinated Percentage,1.9940203389830509
-2021-02-18,Vaccinated Percentage,2.0072203389830507
-2021-02-19,Vaccinated Percentage,2.041484745762712
-2021-02-20,Vaccinated Percentage,2.1083254237288136
-2021-02-21,Vaccinated Percentage,2.1736338983050847
-2021-02-22,Vaccinated Percentage,2.229057627118644
-2021-02-23,Vaccinated Percentage,2.2960338983050845
-2021-02-24,Vaccinated Percentage,2.3814101694915255
-2021-02-25,Vaccinated Percentage,2.4848203389830505
-2021-02-26,Vaccinated Percentage,2.6152610169491526
-2021-02-27,Vaccinated Percentage,2.7602169491525426
-2021-02-28,Vaccinated Percentage,2.882494915254237
-2021-03-01,Vaccinated Percentage,2.993091525423729
-2021-03-02,Vaccinated Percentage,3.1330508474576275
-2021-03-03,Vaccinated Percentage,3.3065016949152546
-2021-03-04,Vaccinated Percentage,3.5031186440677966
-2021-03-05,Vaccinated Percentage,3.740006779661017
-2021-03-06,Vaccinated Percentage,3.9985559322033897
-2021-03-07,Vaccinated Percentage,4.1952338983050845
-2021-03-08,Vaccinated Percentage,4.330915254237288
-2021-03-09,Vaccinated Percentage,4.524338983050848
-2021-03-10,Vaccinated Percentage,4.743003389830509
-2021-03-11,Vaccinated Percentage,5.0013084745762715
-2021-03-12,Vaccinated Percentage,5.289233898305085
-2021-03-13,Vaccinated Percentage,5.639389830508475
-2021-03-14,Vaccinated Percentage,5.916881355932204
-2021-03-15,Vaccinated Percentage,6.13064406779661
-2021-03-16,Vaccinated Percentage,6.469247457627119
-2021-03-17,Vaccinated Percentage,6.852033898305085
-2021-03-18,Vaccinated Percentage,7.2351457627118645
-2021-03-19,Vaccinated Percentage,7.632881355932203
-2021-03-20,Vaccinated Percentage,8.025410169491526
-2021-03-21,Vaccinated Percentage,8.292583050847458
-2021-03-22,Vaccinated Percentage,8.499952542372881
-2021-03-23,Vaccinated Percentage,8.831566101694916
-2021-03-24,Vaccinated Percentage,9.311769491525423
-2021-03-25,Vaccinated Percentage,9.838711864406779
-2021-03-26,Vaccinated Percentage,10.387925423728813
-2021-03-27,Vaccinated Percentage,10.901905084745762
-2021-03-28,Vaccinated Percentage,11.335572881355931
-2021-03-29,Vaccinated Percentage,11.664318644067796
-2021-03-30,Vaccinated Percentage,12.125362711864407
-2021-03-31,Vaccinated Percentage,12.72157966101695
-2021-04-01,Vaccinated Percentage,13.278630508474576
-2021-04-02,Vaccinated Percentage,13.858616949152541
-2021-04-03,Vaccinated Percentage,14.254874576271186
-2021-04-04,Vaccinated Percentage,14.719593220338984
-2021-04-05,Vaccinated Percentage,15.074189830508475
-2021-04-06,Vaccinated Percentage,15.584345762711866
-2021-04-07,Vaccinated Percentage,16.280935593220338
-2021-04-08,Vaccinated Percentage,17.00626440677966
-2021-04-09,Vaccinated Percentage,17.705545762711864
-2021-04-10,Vaccinated Percentage,18.39977627118644
-2021-04-11,Vaccinated Percentage,19.027749152542373
-2021-04-12,Vaccinated Percentage,19.532515254237286
-2021-04-13,Vaccinated Percentage,20.16877966101695
-2021-04-14,Vaccinated Percentage,20.92046101694915
-2021-04-15,Vaccinated Percentage,21.619749152542372
-2021-04-16,Vaccinated Percentage,22.38715254237288
-2021-04-17,Vaccinated Percentage,23.098793220338983
-2021-04-18,Vaccinated Percentage,23.67844745762712
-2021-04-19,Vaccinated Percentage,24.127274576271187
-2021-04-20,Vaccinated Percentage,24.72942372881356
-2021-04-21,Vaccinated Percentage,25.643972881355932
-2021-04-22,Vaccinated Percentage,26.545410169491525
-2021-04-23,Vaccinated Percentage,27.42688813559322
-2021-04-24,Vaccinated Percentage,28.261640677966106
-2021-04-25,Vaccinated Percentage,28.92575593220339
-2021-04-26,Vaccinated Percentage,29.39013559322034
-2021-04-27,Vaccinated Percentage,30.02350508474576
-2021-04-28,Vaccinated Percentage,30.79347118644068
-2021-04-29,Vaccinated Percentage,31.58892881355932
-2021-04-30,Vaccinated Percentage,32.33134915254237
-2021-05-01,Vaccinated Percentage,33.04491525423729
-2021-05-02,Vaccinated Percentage,33.553145762711864
-2021-05-03,Vaccinated Percentage,33.91419661016949
-2021-05-04,Vaccinated Percentage,34.50193220338983
-2021-05-05,Vaccinated Percentage,35.38033898305085
-2021-05-06,Vaccinated Percentage,36.313030508474576
-2021-05-07,Vaccinated Percentage,37.27458305084746
-2021-05-08,Vaccinated Percentage,38.18725423728814
-2021-05-09,Vaccinated Percentage,38.99559322033898
-2021-05-10,Vaccinated Percentage,39.626400000000004
-2021-05-11,Vaccinated Percentage,40.36673898305085
-2021-05-12,Vaccinated Percentage,41.284122033898306
-2021-05-13,Vaccinated Percentage,42.18144406779661
-2021-05-14,Vaccinated Percentage,43.088793220338985
-2021-05-15,Vaccinated Percentage,44.0832
-2021-05-16,Vaccinated Percentage,44.98426440677966
-2021-05-17,Vaccinated Percentage,45.72464406779661
-2021-05-18,Vaccinated Percentage,46.40050847457627
-2021-05-19,Vaccinated Percentage,47.287145762711866
-2021-05-20,Vaccinated Percentage,48.15501694915254
-2021-05-21,Vaccinated Percentage,49.08061694915254
-2021-05-22,Vaccinated Percentage,50.205396610169494
-2021-05-23,Vaccinated Percentage,51.07799322033898
-2021-05-24,Vaccinated Percentage,51.70674576271187
-2021-05-25,Vaccinated Percentage,52.25324745762712
-2021-05-26,Vaccinated Percentage,53.00090169491526
-2021-05-27,Vaccinated Percentage,53.80233220338984
-2021-05-28,Vaccinated Percentage,54.68171525423728
-2021-05-29,Vaccinated Percentage,55.45970169491525
-2021-05-30,Vaccinated Percentage,56.24667118644068
-2021-05-31,Vaccinated Percentage,56.780969491525425
-2021-06-01,Vaccinated Percentage,57.37286779661017
-2021-06-02,Vaccinated Percentage,58.040393220338984
-2021-06-03,Vaccinated Percentage,58.69846779661017
-2021-06-04,Vaccinated Percentage,59.425505084745765
+2020-12-24,All Vaccinated Percentage,
+2020-12-30,All Vaccinated Percentage,
+2020-12-31,All Vaccinated Percentage,
+2021-01-01,All Vaccinated Percentage,
+2021-01-02,All Vaccinated Percentage,
+2021-01-03,All Vaccinated Percentage,
+2021-01-04,All Vaccinated Percentage,
+2021-01-05,All Vaccinated Percentage,
+2021-01-06,All Vaccinated Percentage,0.4069091614494736
+2021-01-07,All Vaccinated Percentage,0.48560315340685795
+2021-01-08,All Vaccinated Percentage,0.5805735118222214
+2021-01-09,All Vaccinated Percentage,0.6809399133293668
+2021-01-10,All Vaccinated Percentage,0.7486857071646827
+2021-01-11,All Vaccinated Percentage,0.8088159533912197
+2021-01-12,All Vaccinated Percentage,0.8859691883903218
+2021-01-13,All Vaccinated Percentage,0.9529276350575285
+2021-01-14,All Vaccinated Percentage,1.0342348051159647
+2021-01-15,All Vaccinated Percentage,1.1272843079401655
+2021-01-16,All Vaccinated Percentage,1.217829232272709
+2021-01-17,All Vaccinated Percentage,1.2844618801117327
+2021-01-18,All Vaccinated Percentage,1.3501103439906201
+2021-01-19,All Vaccinated Percentage,1.4343904283562268
+2021-01-20,All Vaccinated Percentage,1.5050344742672548
+2021-01-21,All Vaccinated Percentage,1.586260194618645
+2021-01-22,All Vaccinated Percentage,1.6312950951393665
+2021-01-23,All Vaccinated Percentage,1.6778096653380863
+2021-01-24,All Vaccinated Percentage,1.6909773679771516
+2021-01-25,All Vaccinated Percentage,1.7001404600198005
+2021-01-26,All Vaccinated Percentage,1.725199819887548
+2021-01-27,All Vaccinated Percentage,1.7450599734555403
+2021-01-28,All Vaccinated Percentage,1.7780063799555528
+2021-01-29,All Vaccinated Percentage,1.8039481116496294
+2021-01-30,All Vaccinated Percentage,1.8261092194416648
+2021-01-31,All Vaccinated Percentage,1.838014451621521
+2021-02-01,All Vaccinated Percentage,1.8435258817982847
+2021-02-02,All Vaccinated Percentage,1.8499807710816618
+2021-02-03,All Vaccinated Percentage,1.8552682145640493
+2021-02-04,All Vaccinated Percentage,1.8602977339741251
+2021-02-05,All Vaccinated Percentage,1.865999213467329
+2021-02-06,All Vaccinated Percentage,1.873974497282227
+2021-02-07,All Vaccinated Percentage,1.8831172268981142
+2021-02-08,All Vaccinated Percentage,1.9005474642059081
+2021-02-09,All Vaccinated Percentage,1.9215614886237158
+2021-02-10,All Vaccinated Percentage,1.94389228330543
+2021-02-11,All Vaccinated Percentage,1.9673362239834364
+2021-02-12,All Vaccinated Percentage,1.9762346044781862
+2021-02-13,All Vaccinated Percentage,1.986286855822751
+2021-02-14,All Vaccinated Percentage,1.9886149599491427
+2021-02-15,All Vaccinated Percentage,1.9899996049689208
+2021-02-16,All Vaccinated Percentage,1.9917371987192307
+2021-02-17,All Vaccinated Percentage,1.9963187447405546
+2021-02-18,All Vaccinated Percentage,2.0095339597087305
+2021-02-19,All Vaccinated Percentage,2.043837861326172
+2021-02-20,All Vaccinated Percentage,2.1107555831398566
+2021-02-21,All Vaccinated Percentage,2.176139335470845
+2021-02-22,All Vaccinated Percentage,2.2316269483957734
+2021-02-23,All Vaccinated Percentage,2.2986804197212005
+2021-02-24,All Vaccinated Percentage,2.384155099790145
+2021-02-25,All Vaccinated Percentage,2.4876844649209007
+2021-02-26,All Vaccinated Percentage,2.6182754952176124
+2021-02-27,All Vaccinated Percentage,2.7633985107464065
+2021-02-28,All Vaccinated Percentage,2.885817420436193
+2021-03-01,All Vaccinated Percentage,2.996541509689325
+2021-03-02,All Vaccinated Percentage,3.1366621557103915
+2021-03-03,All Vaccinated Percentage,3.3103129311319655
+2021-03-04,All Vaccinated Percentage,3.507156510634821
+2021-03-05,All Vaccinated Percentage,3.74431769512533
+2021-03-06,All Vaccinated Percentage,4.0031648641167745
+2021-03-07,All Vaccinated Percentage,4.200069530899915
+2021-03-08,All Vaccinated Percentage,4.335907279825491
+2021-03-09,All Vaccinated Percentage,4.529553958326801
+2021-03-10,All Vaccinated Percentage,4.748470408439059
+2021-03-11,All Vaccinated Percentage,5.007073228309366
+2021-03-12,All Vaccinated Percentage,5.295330529019919
+2021-03-13,All Vaccinated Percentage,5.645890068144897
+2021-03-14,All Vaccinated Percentage,5.923701443926832
+2021-03-15,All Vaccinated Percentage,6.137710549189582
+2021-03-16,All Vaccinated Percentage,6.476704229914061
+2021-03-17,All Vaccinated Percentage,6.859931889039977
+2021-03-18,All Vaccinated Percentage,7.2434853469940785
+2021-03-19,All Vaccinated Percentage,7.641679389789655
+2021-03-20,All Vaccinated Percentage,8.034660651334303
+2021-03-21,All Vaccinated Percentage,8.302141489272598
+2021-03-22,All Vaccinated Percentage,8.50975000505667
+2021-03-23,All Vaccinated Percentage,8.8417457984508
+2021-03-24,All Vaccinated Percentage,9.322502694288435
+2021-03-25,All Vaccinated Percentage,9.850052446823861
+2021-03-26,All Vaccinated Percentage,10.399899056663068
+2021-03-27,All Vaccinated Percentage,10.91447115587587
+2021-03-28,All Vaccinated Percentage,11.348638819283327
+2021-03-29,All Vaccinated Percentage,11.677763510504095
+2021-03-30,All Vaccinated Percentage,12.139339000332452
+2021-03-31,All Vaccinated Percentage,12.736243178417347
+2021-04-01,All Vaccinated Percentage,13.293936110035295
+2021-04-02,All Vaccinated Percentage,13.874591071564563
+2021-04-03,All Vaccinated Percentage,14.271305444682142
+2021-04-04,All Vaccinated Percentage,14.736559746278733
+2021-04-05,All Vaccinated Percentage,15.091565081913291
+2021-04-06,All Vaccinated Percentage,15.602309044894943
+2021-04-07,All Vaccinated Percentage,16.299701799047554
+2021-04-08,All Vaccinated Percentage,17.02586666221408
+2021-04-09,All Vaccinated Percentage,17.72595404417479
+2021-04-10,All Vaccinated Percentage,18.420984756823074
+2021-04-11,All Vaccinated Percentage,19.049681470558173
+2021-04-12,All Vaccinated Percentage,19.555029390448038
+2021-04-13,All Vaccinated Percentage,20.192027186826216
+2021-04-14,All Vaccinated Percentage,20.944574967599987
+2021-04-15,All Vaccinated Percentage,21.64466913703628
+2021-04-16,All Vaccinated Percentage,22.412957073696646
+2021-04-17,All Vaccinated Percentage,23.125418023652724
+2021-04-18,All Vaccinated Percentage,23.70574039887822
+2021-04-19,All Vaccinated Percentage,24.15508485769854
+2021-04-20,All Vaccinated Percentage,24.75792807692219
+2021-04-21,All Vaccinated Percentage,25.673531383725994
+2021-04-22,All Vaccinated Percentage,26.57600771274426
+2021-04-23,All Vaccinated Percentage,27.45850171363396
+2021-04-24,All Vaccinated Percentage,28.29421643277705
+2021-04-25,All Vaccinated Percentage,28.95909717886722
+2021-04-26,All Vaccinated Percentage,29.424012106684454
+2021-04-27,All Vaccinated Percentage,30.05811165098692
+2021-04-28,All Vaccinated Percentage,30.828965253419227
+2021-04-29,All Vaccinated Percentage,31.625339764059202
+2021-04-30,All Vaccinated Percentage,32.368615853180934
+2021-05-01,All Vaccinated Percentage,33.08300444620376
+2021-05-02,All Vaccinated Percentage,33.59182076611866
+2021-05-03,All Vaccinated Percentage,33.953287778512184
+2021-05-04,All Vaccinated Percentage,34.54170082463756
+2021-05-05,All Vaccinated Percentage,35.42112009908628
+2021-05-06,All Vaccinated Percentage,36.354886690561294
+2021-05-07,All Vaccinated Percentage,37.317547565610795
+2021-05-08,All Vaccinated Percentage,38.23127074167696
+2021-05-09,All Vaccinated Percentage,39.04054145593252
+2021-05-10,All Vaccinated Percentage,39.672075334463045
+2021-05-11,All Vaccinated Percentage,40.41326766857951
+2021-05-12,All Vaccinated Percentage,41.33170814017875
+2021-05-13,All Vaccinated Percentage,42.23006447151561
+2021-05-14,All Vaccinated Percentage,43.13845947924587
+2021-05-15,All Vaccinated Percentage,44.13401246099068
+2021-05-16,All Vaccinated Percentage,45.03611547885165
+2021-05-17,All Vaccinated Percentage,45.777348537821645
+2021-05-18,All Vaccinated Percentage,46.453991979104345
+2021-05-19,All Vaccinated Percentage,47.34165124891587
+2021-05-20,All Vaccinated Percentage,48.21052278630217
+2021-05-21,All Vaccinated Percentage,49.13718967831303
+2021-05-22,All Vaccinated Percentage,50.26326581559868
+2021-05-23,All Vaccinated Percentage,51.136868223469214
+2021-05-24,All Vaccinated Percentage,51.76634549689684
+2021-05-25,All Vaccinated Percentage,52.31347711650118
+2021-05-26,All Vaccinated Percentage,53.06199313677619
+2021-05-27,All Vaccinated Percentage,53.86434741340844
+2021-05-28,All Vaccinated Percentage,54.74474408434171
+2021-05-29,All Vaccinated Percentage,55.52362727039362
+2021-05-30,All Vaccinated Percentage,56.31150386159849
+2021-05-31,All Vaccinated Percentage,56.84641802514597
+2021-06-01,All Vaccinated Percentage,57.43899858128185
+2021-06-02,All Vaccinated Percentage,58.10729342759237
+2021-06-03,All Vaccinated Percentage,58.76612653293439
+2021-06-04,All Vaccinated Percentage,59.494001839948886
+2020-12-24,Over 12 Vaccinated Percentage,
+2020-12-30,Over 12 Vaccinated Percentage,
+2020-12-31,Over 12 Vaccinated Percentage,
+2021-01-01,Over 12 Vaccinated Percentage,
+2021-01-02,Over 12 Vaccinated Percentage,
+2021-01-03,Over 12 Vaccinated Percentage,
+2021-01-04,Over 12 Vaccinated Percentage,
+2021-01-05,Over 12 Vaccinated Percentage,
+2021-01-06,Over 12 Vaccinated Percentage,0.047604866931016745
+2021-01-07,Over 12 Vaccinated Percentage,0.05681138615033631
+2021-01-08,Over 12 Vaccinated Percentage,0.06792210004689656
+2021-01-09,Over 12 Vaccinated Percentage,0.07966410450576135
+2021-01-10,Over 12 Vaccinated Percentage,0.08758977884835481
+2021-01-11,Over 12 Vaccinated Percentage,0.0946244997181109
+2021-01-12,Over 12 Vaccinated Percentage,0.1036507636447976
+2021-01-13,Over 12 Vaccinated Percentage,0.11148432515062712
+2021-01-14,Over 12 Vaccinated Percentage,0.12099656369886147
+2021-01-15,Over 12 Vaccinated Percentage,0.13188255403676485
+2021-01-16,Over 12 Vaccinated Percentage,0.14247553026461746
+2021-01-17,Over 12 Vaccinated Percentage,0.15027097611385504
+2021-01-18,Over 12 Vaccinated Percentage,0.15795128091713764
+2021-01-19,Over 12 Vaccinated Percentage,0.16781132483177377
+2021-01-20,Over 12 Vaccinated Percentage,0.1760760697028
+2021-01-21,Over 12 Vaccinated Percentage,0.18557877933688638
+2021-01-22,Over 12 Vaccinated Percentage,0.19084747478454767
+2021-01-23,Over 12 Vaccinated Percentage,0.1962892788392309
+2021-01-24,Over 12 Vaccinated Percentage,0.19782978662648978
+2021-01-25,Over 12 Vaccinated Percentage,0.19890178946813908
+2021-01-26,Over 12 Vaccinated Percentage,0.201833518721005
+2021-01-27,Over 12 Vaccinated Percentage,0.20415698562075735
+2021-01-28,Over 12 Vaccinated Percentage,0.2080114313936207
+2021-01-29,Over 12 Vaccinated Percentage,0.21104639054975657
+2021-01-30,Over 12 Vaccinated Percentage,0.21363904927418972
+2021-01-31,Over 12 Vaccinated Percentage,0.2150318588921548
+2021-02-01,Over 12 Vaccinated Percentage,0.21567664874950232
+2021-02-02,Over 12 Vaccinated Percentage,0.2164318151957308
+2021-02-03,Over 12 Vaccinated Percentage,0.21705040053917138
+2021-02-04,Over 12 Vaccinated Percentage,0.21763881098780996
+2021-02-05,Over 12 Vaccinated Percentage,0.21830583497816947
+2021-02-06,Over 12 Vaccinated Percentage,0.21923887448849383
+2021-02-07,Over 12 Vaccinated Percentage,0.2203084951016061
+2021-02-08,Over 12 Vaccinated Percentage,0.22234768272927666
+2021-02-09,Over 12 Vaccinated Percentage,0.22480614257945897
+2021-02-10,Over 12 Vaccinated Percentage,0.22741865320836716
+2021-02-11,Over 12 Vaccinated Percentage,0.2301613923306312
+2021-02-12,Over 12 Vaccinated Percentage,0.2312024262012995
+2021-02-13,Over 12 Vaccinated Percentage,0.23237845302239765
+2021-02-14,Over 12 Vaccinated Percentage,0.23265082115179447
+2021-02-15,Over 12 Vaccinated Percentage,0.23281281269231036
+2021-02-16,Over 12 Vaccinated Percentage,0.23301609619413421
+2021-02-17,Over 12 Vaccinated Percentage,0.23355209761495885
+2021-02-18,Over 12 Vaccinated Percentage,0.23509816393547076
+2021-02-19,Over 12 Vaccinated Percentage,0.23911142494413398
+2021-02-20,Over 12 Vaccinated Percentage,0.24694022199288948
+2021-02-21,Over 12 Vaccinated Percentage,0.25458955782519116
+2021-02-22,Over 12 Vaccinated Percentage,0.2610811305885116
+2021-02-23,Over 12 Vaccinated Percentage,0.26892580916084713
+2021-02-24,Over 12 Vaccinated Percentage,0.27892561048298714
+2021-02-25,Over 12 Vaccinated Percentage,0.2910376544412657
+2021-02-26,Over 12 Vaccinated Percentage,0.30631568012521504
+2021-02-27,Over 12 Vaccinated Percentage,0.32329382290840214
+2021-02-28,Over 12 Vaccinated Percentage,0.33761578087283617
+2021-03-01,Over 12 Vaccinated Percentage,0.3505695455808541
+2021-03-02,Over 12 Vaccinated Percentage,0.36696245422011864
+2021-03-03,Over 12 Vaccinated Percentage,0.3872780991836404
+2021-03-04,Over 12 Vaccinated Percentage,0.4103071024508033
+2021-03-05,Over 12 Vaccinated Percentage,0.438052918221223
+2021-03-06,Over 12 Vaccinated Percentage,0.4683358073835458
+2021-03-07,Over 12 Vaccinated Percentage,0.4913719573363198
+2021-03-08,Over 12 Vaccinated Percentage,0.5072638039066356
+2021-03-09,Over 12 Vaccinated Percentage,0.5299187972934898
+2021-03-10,Over 12 Vaccinated Percentage,0.5555301362947589
+2021-03-11,Over 12 Vaccinated Percentage,0.5857844387146377
+2021-03-12,Over 12 Vaccinated Percentage,0.6195080599605652
+2021-03-13,Over 12 Vaccinated Percentage,0.6605205064535286
+2021-03-14,Over 12 Vaccinated Percentage,0.6930220444599758
+2021-03-15,Over 12 Vaccinated Percentage,0.7180592663838283
+2021-03-16,Over 12 Vaccinated Percentage,0.7577186070677767
+2021-03-17,Over 12 Vaccinated Percentage,0.8025529422102643
+2021-03-18,Over 12 Vaccinated Percentage,0.847425393009344
+2021-03-19,Over 12 Vaccinated Percentage,0.8940106661265255
+2021-03-20,Over 12 Vaccinated Percentage,0.9399860887382353
+2021-03-21,Over 12 Vaccinated Percentage,0.9712790428002456
+2021-03-22,Over 12 Vaccinated Percentage,0.9955674508873015
+2021-03-23,Over 12 Vaccinated Percentage,1.0344080990307014
+2021-03-24,Over 12 Vaccinated Percentage,1.090652514789232
+2021-03-25,Over 12 Vaccinated Percentage,1.152371291725785
+2021-03-26,Over 12 Vaccinated Percentage,1.216698608910351
+2021-03-27,Over 12 Vaccinated Percentage,1.276899112192657
+2021-03-28,Over 12 Vaccinated Percentage,1.3276929890585356
+2021-03-29,Over 12 Vaccinated Percentage,1.3661977429782186
+2021-03-30,Over 12 Vaccinated Percentage,1.4201980994548968
+2021-03-31,Over 12 Vaccinated Percentage,1.4900307467884661
+2021-04-01,Over 12 Vaccinated Percentage,1.5552760160359553
+2021-04-02,Over 12 Vaccinated Percentage,1.623207644997
+2021-04-03,Over 12 Vaccinated Percentage,1.6696198095071595
+2021-04-04,Over 12 Vaccinated Percentage,1.7240505552728558
+2021-04-05,Over 12 Vaccinated Percentage,1.7655831216630637
+2021-04-06,Over 12 Vaccinated Percentage,1.825335765980414
+2021-04-07,Over 12 Vaccinated Percentage,1.9069247111440697
+2021-04-08,Over 12 Vaccinated Percentage,1.9918797452305046
+2021-04-09,Over 12 Vaccinated Percentage,2.073783938637223
+2021-04-10,Over 12 Vaccinated Percentage,2.1550965452905873
+2021-04-11,Over 12 Vaccinated Percentage,2.22864864544659
+2021-04-12,Over 12 Vaccinated Percentage,2.287769999201636
+2021-04-13,Over 12 Vaccinated Percentage,2.3622932545245545
+2021-04-14,Over 12 Vaccinated Percentage,2.45033486271876
+2021-04-15,Over 12 Vaccinated Percentage,2.532239850201658
+2021-04-16,Over 12 Vaccinated Percentage,2.622122921054963
+2021-04-17,Over 12 Vaccinated Percentage,2.705474715335998
+2021-04-18,Over 12 Vaccinated Percentage,2.7733674345642716
+2021-04-19,Over 12 Vaccinated Percentage,2.8259368657663932
+2021-04-20,Over 12 Vaccinated Percentage,2.8964643297565864
+2021-04-21,Over 12 Vaccinated Percentage,3.003582029998896
+2021-04-22,Over 12 Vaccinated Percentage,3.10916398691102
+2021-04-23,Over 12 Vaccinated Percentage,3.21240818355217
+2021-04-24,Over 12 Vaccinated Percentage,3.3101796071676555
+2021-04-25,Over 12 Vaccinated Percentage,3.387964927433904
+2021-04-26,Over 12 Vaccinated Percentage,3.44235596939065
+2021-04-27,Over 12 Vaccinated Percentage,3.516540154185136
+2021-04-28,Over 12 Vaccinated Percentage,3.6067233858341035
+2021-04-29,Over 12 Vaccinated Percentage,3.6998923439161087
+2021-04-30,Over 12 Vaccinated Percentage,3.7868492440498
+2021-05-01,Over 12 Vaccinated Percentage,3.870426555965671
+2021-05-02,Over 12 Vaccinated Percentage,3.929953682648186
+2021-05-03,Over 12 Vaccinated Percentage,3.9722422095608008
+2021-05-04,Over 12 Vaccinated Percentage,4.041081467594442
+2021-05-05,Over 12 Vaccinated Percentage,4.143965947726505
+2021-05-06,Over 12 Vaccinated Percentage,4.253208595823817
+2021-05-07,Over 12 Vaccinated Percentage,4.365831626215129
+2021-05-08,Over 12 Vaccinated Percentage,4.472729367355856
+2021-05-09,Over 12 Vaccinated Percentage,4.567407070177959
+2021-05-10,Over 12 Vaccinated Percentage,4.6412910941767835
+2021-05-11,Over 12 Vaccinated Percentage,4.728004212923523
+2021-05-12,Over 12 Vaccinated Percentage,4.835453837008654
+2021-05-13,Over 12 Vaccinated Percentage,4.940553789680126
+2021-05-14,Over 12 Vaccinated Percentage,5.046828181020337
+2021-05-15,Over 12 Vaccinated Percentage,5.163299304575081
+2021-05-16,Over 12 Vaccinated Percentage,5.2688375872973605
+2021-05-17,Over 12 Vaccinated Percentage,5.355555470501174
+2021-05-18,Over 12 Vaccinated Percentage,5.434716924785628
+2021-05-19,Over 12 Vaccinated Percentage,5.538565413398997
+2021-05-20,Over 12 Vaccinated Percentage,5.640215899148894
+2021-05-21,Over 12 Vaccinated Percentage,5.748627943562973
+2021-05-22,Over 12 Vaccinated Percentage,5.880369152039877
+2021-05-23,Over 12 Vaccinated Percentage,5.982573108886537
+2021-05-24,Over 12 Vaccinated Percentage,6.056216527803125
+2021-05-25,Over 12 Vaccinated Percentage,6.120226214516091
+2021-05-26,Over 12 Vaccinated Percentage,6.20779614145997
+2021-05-27,Over 12 Vaccinated Percentage,6.301664680655674
+2021-05-28,Over 12 Vaccinated Percentage,6.404663507757514
+2021-05-29,Over 12 Vaccinated Percentage,6.495786131526236
+2021-05-30,Over 12 Vaccinated Percentage,6.587960906232134
+2021-05-31,Over 12 Vaccinated Percentage,6.6505412558229
+2021-06-01,Over 12 Vaccinated Percentage,6.719868076630448
+2021-06-02,Over 12 Vaccinated Percentage,6.798052817214733
+2021-06-03,Over 12 Vaccinated Percentage,6.875130615605493
+2021-06-04,Over 12 Vaccinated Percentage,6.960285756889036
