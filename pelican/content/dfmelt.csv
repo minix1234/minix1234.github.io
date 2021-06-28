@@ -180,6 +180,7 @@ report_date,variable,value
 2021-06-25,Daily - Doses Administered,246393.0
 2021-06-26,Daily - Doses Administered,256260.0
 2021-06-27,Daily - Doses Administered,202672.0
+2021-06-28,Daily - Doses Administered,180369.0
 2020-12-24,Daily - First Dose,
 2020-12-30,Daily - First Dose,
 2020-12-31,Daily - First Dose,
@@ -361,6 +362,7 @@ report_date,variable,value
 2021-06-25,Daily - First Dose,27611.0
 2021-06-26,Daily - First Dose,29376.0
 2021-06-27,Daily - First Dose,27156.0
+2021-06-28,Daily - First Dose,19220.0
 2020-12-24,Daily - Second Dose,
 2020-12-30,Daily - Second Dose,
 2020-12-31,Daily - Second Dose,
@@ -542,6 +544,7 @@ report_date,variable,value
 2021-06-25,Daily - Second Dose,218782.0
 2021-06-26,Daily - Second Dose,226884.0
 2021-06-27,Daily - Second Dose,175516.0
+2021-06-28,Daily - Second Dose,161149.0
 2020-12-24,Total Doses,10756.0
 2020-12-30,Total Doses,18603.0
 2020-12-31,Total Doses,23502.0
@@ -723,6 +726,7 @@ report_date,variable,value
 2021-06-25,Total Doses,13568209.0
 2021-06-26,Total Doses,13824469.0
 2021-06-27,Total Doses,14027141.0
+2021-06-28,Total Doses,14207510.0
 2020-12-24,Population Vaccinated,
 2020-12-30,Population Vaccinated,
 2020-12-31,Population Vaccinated,
@@ -904,6 +908,7 @@ report_date,variable,value
 2021-06-25,Population Vaccinated,9806988.0
 2021-06-26,Population Vaccinated,9836364.0
 2021-06-27,Population Vaccinated,9863520.0
+2021-06-28,Population Vaccinated,9882740.0
 2020-12-24,Doses for Fully Vaccinated,
 2020-12-30,Doses for Fully Vaccinated,
 2020-12-31,Doses for Fully Vaccinated,
@@ -1085,6 +1090,7 @@ report_date,variable,value
 2021-06-25,Doses for Fully Vaccinated,7522442.0
 2021-06-26,Doses for Fully Vaccinated,7976210.0
 2021-06-27,Doses for Fully Vaccinated,8327242.0
+2021-06-28,Doses for Fully Vaccinated,8649540.0
 2020-12-24,Fully Vaccinated,
 2020-12-30,Fully Vaccinated,
 2020-12-31,Fully Vaccinated,
@@ -1266,6 +1272,7 @@ report_date,variable,value
 2021-06-25,Fully Vaccinated,3761221.0
 2021-06-26,Fully Vaccinated,3988105.0
 2021-06-27,Fully Vaccinated,4163621.0
+2021-06-28,Fully Vaccinated,4324770.0
 2020-12-24,Partially Vaccinated,
 2020-12-30,Partially Vaccinated,
 2020-12-31,Partially Vaccinated,
@@ -1447,6 +1454,7 @@ report_date,variable,value
 2021-06-25,Partially Vaccinated,6045767.0
 2021-06-26,Partially Vaccinated,5848259.0
 2021-06-27,Partially Vaccinated,5699899.0
+2021-06-28,Partially Vaccinated,5557970.0
 2020-12-24,All Vaccinated Percentage,
 2020-12-30,All Vaccinated Percentage,
 2020-12-31,All Vaccinated Percentage,
@@ -1628,6 +1636,7 @@ report_date,variable,value
 2021-06-25,All Vaccinated Percentage,66.56469163344538
 2021-06-26,All Vaccinated Percentage,66.7640805162934
 2021-06-27,All Vaccinated Percentage,66.94840120333797
+2021-06-28,All Vaccinated Percentage,67.07885648412294
 2020-12-24,Over 12 Vaccinated Percentage,
 2020-12-30,Over 12 Vaccinated Percentage,
 2020-12-31,Over 12 Vaccinated Percentage,
@@ -1809,3 +1818,4 @@ report_date,variable,value
 2021-06-25,Over 12 Vaccinated Percentage,75.83210116650282
 2021-06-26,Over 12 Vaccinated Percentage,76.05924978786007
 2021-06-27,Over 12 Vaccinated Percentage,76.26923235735823
+2021-06-28,Over 12 Vaccinated Percentage,76.41785015768797
